@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+.container {
+    width: 1366px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1366px;
+    height: 76px;
+    border-bottom: 1px solid rgb(194, 193, 193);
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7%;
+    height: 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93px;
+    height: 29px;
+}
+
+.logo_alef {
+    width: 93px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    font-family: "Montserrat";
+    line-height: 24px;
+    color: gray;
+}
+
+.one_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 70px;
+    margin-right: 34px;
+    font-size: 14px;
+    background: none;
+    border: none;
+    padding: 0px;
+    font-family: "Montserrat";
+    line-height: 24px;
+    color: gray;
+}
+
+a {
+    all: unset;
+}
+
+.two_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 70px;
+    font-size: 14px;
+    background: none;
+    border: none;
+    padding: 0px;
+    font-family: "Montserrat";
+    line-height: 24px;
+    color: gray;
+}
+
+.content {
+    width: 616px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.person_date {
+    display: flex;
+    flex-direction: column;
+}
+
+.person_date__title {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.children_date__title {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 60px;
+}
+.person_date__name {
+    width: 616px;
+    height: 56px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.person_date__age {
+    width: 616px;
+    height: 56px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.person_date__name::-moz-placeholder {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.85px;
+}
+
+.person_date__name::placeholder {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.85px;
+}
+
+.person_date__age::-moz-placeholder {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.85px;
+}
+
+.person_date__age::placeholder {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.85px;
+}
+
+.children {
+    display: flex;
+    flex-direction: column;
+}
+
+.children_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.children_title__title {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.children__button {
+    width: 204px;
+    height: 44px;
+    border: 2px solid #01a7fd;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.653);
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #01a7fd;
+}
+
+.children__button:active {
+    box-shadow: inset 10px 0 18px rgba(216, 215, 218, 0.904);
+}
+
+.disabledButton {
+    border: 2px solid rgba(227, 228, 228, 0);
+    background-color: rgba(243, 240, 240, 0);
+    color: rgba(252, 253, 253, 0);
+}
+
+.row_child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.child_name {
+    width: 260px;
+    height: 56px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+}
+
+.child_age {
+    width: 260px;
+    height: 56px;
+    margin: 0 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+}
+
+.child_del {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #01a7fd;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.name_in_input {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.85px;
+    margin: 7px 0 0px 18px;
+    color: gray;
+}
+
+.text_in_input {
+    margin-left: 15px;
+    width: 220px;
+    border: 1px solid rgba(241, 241, 241, 0);
+    outline: none;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+.child_age::-moz-placeholder {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.85px;
+}
+
+.child_age::placeholder {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.85px;
+}
+
+.content__button {
+    width: 118px;
+    height: 44px;
+    border: 2px solid #01a7fd;
+    border-radius: 100px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #01a7fd;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.content__button:active {
+    box-shadow: inset 0 0 5px rgba(16, 15, 15, 0.5);
+}
+
+.footer {
+    width: 1366px;
+    height: 76px;
+    flex: 0 0 auto;
+    margin-top: 136px;
+}
+
+.footer_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1366px;
+    height: 76px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15, 85px;
+    background-color: #fafafa;
+}
+
+.person_date_prewiew {
+    width: 140px;
+    height: 24px;
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+} /*# sourceMappingURL=style.css.map */
+
+.row_child__name {
+    align-content: center;
+    list-style-type: none;
+    margin-top: 10px;
+    height: 44px;
+    width: max-content;
+    padding: 7px 20px;
+    background-color: #f1f1f1;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
