@@ -1,5 +1,7 @@
 # test-alef-app
 
+# Открыть проект по ссылке: https://alef-project-a9d79.web.app/
+
 ## Project setup
 ```
 npm install
